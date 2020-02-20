@@ -1,6 +1,9 @@
 # cs56 w20 lab07
 
-Starter Code
+Name: Shiran Wang, GithubId: shiran8338
+Javadoc: https://ucsb-cs56-w20.github.io/lab07_shiran8338/index.html
+Repo:
+
 
 # Configuration for OAuth
 
