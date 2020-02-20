@@ -20,6 +20,41 @@
                 <td th:text="${eqSearch.minmag}"></td>
             </tr>
         </table>
+<pre th:text="${json}">
+     </pre>
+
+                <h2> Results</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Type</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td th:text="${featureCollection.type}"></td>
+                </tr>
+            </tbody>
+        </table>
+
+                <h3>Earthquakes</h3>
+        <table>
+            <thead>
+                <tr>
+                    <th>id</th>
+                    <th>place</th>
+                    <th>mag</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr th:each="f: ${featureCollection.features}"> 
+                    <td th:text="${f.id}"></td>
+                    <td th:text="${f.properties.place}"></td>
+                    <td th:text="${f.properties.mag}"></td>
+                </tr>
+            </tbody>
+        </table>
+
      <div th:replace="bootstrap/bootstrap_footer.html"></div>
       </div>
      <div th:replace="bootstrap/bootstrap_scripts.html"></div>
