@@ -2,7 +2,7 @@
 
 Name: Shiran Wang, GithubId: shiran8338
 Javadoc: https://ucsb-cs56-w20.github.io/lab07_shiran8338/index.html
-Repo:
+Repo: https://github.com/ucsb-cs56-w20/lab07_shiran8338
 
 
 # Configuration for OAuth
